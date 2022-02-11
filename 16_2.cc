@@ -14,7 +14,7 @@ void sort(int arr[] , int n)
     	idx=i;
         for(int j=i+1;j<n;j++)
         {
-            if(arr[j] <arr[i])
+            if(arr[j] <arr[idx])
             	idx=j;
             swap(arr[idx],arr[i]);
         }
